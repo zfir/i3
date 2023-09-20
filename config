@@ -194,6 +194,6 @@ bindsym Control+Mod1+l exec "i3lock -c 000000"
 bindsym $mod+g exec "setxkbmap -layout us"
 bindsym $mod+Shift+g exec "setxkbmap -layout gb"
 
-bindsym $mod+p exec "xrandr --output HDM1-1 --output HDMI-2 --same-as eDP-1"
+bindsym $mod+p exec "xrandr --output HDMI-1 --output HDMI-2 --same-as eDP-1"
 
 exec xinput set-prop "Elan Touchpad" "libinput Tapping Enabled" 1
